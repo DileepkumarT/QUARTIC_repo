@@ -1,0 +1,21 @@
+There are two ipynb files
+1.Training_File: Model built using training data
+2.Test_File : Prediction of target
+
+Output.csv is the result file that contains id and target probabilities to be 1
+
+Discussion Questions:
+
+1.Generally trade offs will be with below two:
+			i.Bias
+			ii.Variance
+Bias:- It is the error or we can say this as the difference between predicted output and actual output. If the Bias is high the model will underfit as it cannot fit the model because of error or the distance.
+Variance:- It is the sensitivity or the variability. It is simply a range in which the output or predicted variable can vary. If Variance is high it undergoes Overfitting because if range is high it will consider each sample and results in Overfitting.
+
+2.Model performance completely depends on the amount of training data available. If data is more then model can generalise unseen data if it is less then model will overfits.
+
+Complexity is interm of number of features and models linearity or non-linearity. Model will be complex in both the cases when there are more features and also there is a non-linearity.
+
+Data is the main bottleneck and other thng I feel is domain specific knowledge.
+
+3.When I have more time I will mainly concentrate on the feature engineering where the accuracy or model performance resides. If we can clean data well the model will give us the expected results.
